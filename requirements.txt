@@ -1,0 +1,11 @@
+tensorflow
+torch
+torchvision
+numpy
+matplotlib
+scikit-image
+opencv-python
+pandas
+tqdm
+keras-tuner
+pytube

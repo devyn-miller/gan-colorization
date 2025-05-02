@@ -19,7 +19,7 @@ class Predictor:
         """
         self.model_type = model_type
         self.result = Result()
-        
+
         if model_type == 'autoencoder':
             # Load TensorFlow model
             self.model = tf.keras.models.load_model(model_path)
@@ -52,15 +52,15 @@ class Predictor:
         if self.model_type == 'autoencoder':
             # For autoencoder model (TensorFlow)
             processed_data = preprocess(input_data)
-            predictions = self.model.predict(processed_data)
+        predictions = self.model.predict(processed_data)
             
             # Store predictions in result object
-            if hasattr(self.result, 'save_predictions'):
-                self.result.save_predictions(predictions)
-            else:
-                raise AttributeError("Result class does not have a 'save_predictions' method")
+        if hasattr(self.result, 'save_predictions'):
+            self.result.save_predictions(predictions)
+        else:
+            raise AttributeError("Result class does not have a 'save_predictions' method")
                 
-            return predictions
+        return predictions
         else:
             # For GAN model (PyTorch)
             # Convert input to LAB L channel

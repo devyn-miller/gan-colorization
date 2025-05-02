@@ -7,7 +7,7 @@ from skimage.color import rgb2lab, lab2rgb
 
 from objects.result import Result
 from objects.stack import Stack
-from preprocessing import preprocess
+from preprocessing import preprocess 
 from gan_utils import calculate_metrics
 
 class Validator:
@@ -21,7 +21,7 @@ class Validator:
         """
         self.model_type = model_type
         self.result = Result()
-        
+
         if model_type == 'autoencoder':
             # Load TensorFlow model
             self.model = tensorflow.keras.models.load_model(model_path)
@@ -65,7 +65,7 @@ class Validator:
             
             # Get standard evaluation metrics from TensorFlow
             if hasattr(self.model, 'evaluate'):
-                evaluation_metrics = self.model.evaluate(processed_data)
+        evaluation_metrics = self.model.evaluate(processed_data)
                 # Add to metrics dictionary
                 metrics['loss'] = evaluation_metrics[0]
                 if len(evaluation_metrics) > 1:

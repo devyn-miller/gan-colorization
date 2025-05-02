@@ -463,7 +463,20 @@ if __name__ == "__main__":
     stack = Stack()
     
     # Load your data here
-    # Example: stack = preprocess.preprocess()
+    # We need to initialize the data generators
+    from objects.data_loader import load_data  # Import your data loading module
+    
+    # Initialize the generators with some sample data
+    # If load_data function doesn't exist, you'll need to create it
+    stack = load_data(stack)
+    
+    # Debugging: Check the state of the stack
+    print(f"Stack object: {stack}")
+    print(f"Train generator: {stack.train_generator}")
+    
+    # Fail early if generators aren't initialized
+    if stack.train_generator is None or stack.val_generator is None or stack.test_generator is None:
+        raise ValueError("Data generators must be initialized before training. Check your data loading code.")
     
     # Train GAN
     stack = train(stack) 

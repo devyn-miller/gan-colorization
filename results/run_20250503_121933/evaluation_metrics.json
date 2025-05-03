@@ -1,0 +1,237 @@
+{
+  "metrics": [
+    {
+      "img_num": 0,
+      "grayscale_path": "results/run_20250503_121933/grayscale_00.png",
+      "original_path": "results/run_20250503_121933/original_00.png",
+      "predicted_path": "results/run_20250503_121933/comparison_00.png",
+      "psnr": 4.352689885986039,
+      "ssim": 0.273561211816394,
+      "delta_e": NaN,
+      "hist_corr": 0.37530749060909135,
+      "lpips": NaN
+    },
+    {
+      "img_num": 1,
+      "grayscale_path": "results/run_20250503_121933/grayscale_01.png",
+      "original_path": "results/run_20250503_121933/original_01.png",
+      "predicted_path": "results/run_20250503_121933/comparison_01.png",
+      "psnr": 5.27457667119831,
+      "ssim": 0.325664262617282,
+      "delta_e": NaN,
+      "hist_corr": 0.2992200163319371,
+      "lpips": NaN
+    },
+    {
+      "img_num": 2,
+      "grayscale_path": "results/run_20250503_121933/grayscale_02.png",
+      "original_path": "results/run_20250503_121933/original_02.png",
+      "predicted_path": "results/run_20250503_121933/comparison_02.png",
+      "psnr": 4.245839652369145,
+      "ssim": 0.2644217062358974,
+      "delta_e": NaN,
+      "hist_corr": 0.3177399962475,
+      "lpips": NaN
+    },
+    {
+      "img_num": 3,
+      "grayscale_path": "results/run_20250503_121933/grayscale_03.png",
+      "original_path": "results/run_20250503_121933/original_03.png",
+      "predicted_path": "results/run_20250503_121933/comparison_03.png",
+      "psnr": 4.87701946487224,
+      "ssim": 0.25144316882508655,
+      "delta_e": NaN,
+      "hist_corr": 0.2543769459316351,
+      "lpips": NaN
+    },
+    {
+      "img_num": 4,
+      "grayscale_path": "results/run_20250503_121933/grayscale_04.png",
+      "original_path": "results/run_20250503_121933/original_04.png",
+      "predicted_path": "results/run_20250503_121933/comparison_04.png",
+      "psnr": 4.832560362673258,
+      "ssim": 0.2556123808089593,
+      "delta_e": NaN,
+      "hist_corr": 0.2730998999693464,
+      "lpips": NaN
+    },
+    {
+      "img_num": 5,
+      "grayscale_path": "results/run_20250503_121933/grayscale_05.png",
+      "original_path": "results/run_20250503_121933/original_05.png",
+      "predicted_path": "results/run_20250503_121933/comparison_05.png",
+      "psnr": 4.862625360777692,
+      "ssim": 0.2508851320136298,
+      "delta_e": NaN,
+      "hist_corr": 0.26846492977451275,
+      "lpips": NaN
+    },
+    {
+      "img_num": 6,
+      "grayscale_path": "results/run_20250503_121933/grayscale_06.png",
+      "original_path": "results/run_20250503_121933/original_06.png",
+      "predicted_path": "results/run_20250503_121933/comparison_06.png",
+      "psnr": 4.954713302723801,
+      "ssim": 0.25110668780592804,
+      "delta_e": NaN,
+      "hist_corr": 0.2546573417157452,
+      "lpips": NaN
+    },
+    {
+      "img_num": 7,
+      "grayscale_path": "results/run_20250503_121933/grayscale_07.png",
+      "original_path": "results/run_20250503_121933/original_07.png",
+      "predicted_path": "results/run_20250503_121933/comparison_07.png",
+      "psnr": 4.942978631379143,
+      "ssim": 0.26456425140037326,
+      "delta_e": NaN,
+      "hist_corr": 0.3071041507284642,
+      "lpips": NaN
+    },
+    {
+      "img_num": 8,
+      "grayscale_path": "results/run_20250503_121933/grayscale_08.png",
+      "original_path": "results/run_20250503_121933/original_08.png",
+      "predicted_path": "results/run_20250503_121933/comparison_08.png",
+      "psnr": 4.415279212521934,
+      "ssim": 0.2673502594967909,
+      "delta_e": NaN,
+      "hist_corr": 0.3761309288154954,
+      "lpips": NaN
+    },
+    {
+      "img_num": 9,
+      "grayscale_path": "results/run_20250503_121933/grayscale_09.png",
+      "original_path": "results/run_20250503_121933/original_09.png",
+      "predicted_path": "results/run_20250503_121933/comparison_09.png",
+      "psnr": 4.976754107123167,
+      "ssim": 0.256996242831449,
+      "delta_e": NaN,
+      "hist_corr": 0.24612061671432583,
+      "lpips": NaN
+    },
+    {
+      "img_num": 10,
+      "grayscale_path": "results/run_20250503_121933/grayscale_10.png",
+      "original_path": "results/run_20250503_121933/original_10.png",
+      "predicted_path": "results/run_20250503_121933/comparison_10.png",
+      "psnr": 5.529291179235825,
+      "ssim": 0.26207826087353087,
+      "delta_e": NaN,
+      "hist_corr": 0.2504856262347102,
+      "lpips": NaN
+    },
+    {
+      "img_num": 11,
+      "grayscale_path": "results/run_20250503_121933/grayscale_11.png",
+      "original_path": "results/run_20250503_121933/original_11.png",
+      "predicted_path": "results/run_20250503_121933/comparison_11.png",
+      "psnr": 5.315560802270756,
+      "ssim": 0.25526762066779013,
+      "delta_e": NaN,
+      "hist_corr": 0.2527690372183256,
+      "lpips": NaN
+    },
+    {
+      "img_num": 12,
+      "grayscale_path": "results/run_20250503_121933/grayscale_12.png",
+      "original_path": "results/run_20250503_121933/original_12.png",
+      "predicted_path": "results/run_20250503_121933/comparison_12.png",
+      "psnr": 4.967500875662613,
+      "ssim": 0.256803293683908,
+      "delta_e": NaN,
+      "hist_corr": 0.24625505289130376,
+      "lpips": NaN
+    },
+    {
+      "img_num": 13,
+      "grayscale_path": "results/run_20250503_121933/grayscale_13.png",
+      "original_path": "results/run_20250503_121933/original_13.png",
+      "predicted_path": "results/run_20250503_121933/comparison_13.png",
+      "psnr": 4.9713455329780505,
+      "ssim": 0.25635738715795087,
+      "delta_e": NaN,
+      "hist_corr": 0.2461903197451275,
+      "lpips": NaN
+    },
+    {
+      "img_num": 14,
+      "grayscale_path": "results/run_20250503_121933/grayscale_14.png",
+      "original_path": "results/run_20250503_121933/original_14.png",
+      "predicted_path": "results/run_20250503_121933/comparison_14.png",
+      "psnr": 5.344857521381215,
+      "ssim": 0.2849844738520011,
+      "delta_e": NaN,
+      "hist_corr": 0.2836464276619611,
+      "lpips": NaN
+    },
+    {
+      "img_num": 15,
+      "grayscale_path": "results/run_20250503_121933/grayscale_15.png",
+      "original_path": "results/run_20250503_121933/original_15.png",
+      "predicted_path": "results/run_20250503_121933/comparison_15.png",
+      "psnr": 5.363957639115967,
+      "ssim": 0.2756705836728313,
+      "delta_e": NaN,
+      "hist_corr": 0.2820542377428786,
+      "lpips": NaN
+    },
+    {
+      "img_num": 16,
+      "grayscale_path": "results/run_20250503_121933/grayscale_16.png",
+      "original_path": "results/run_20250503_121933/original_16.png",
+      "predicted_path": "results/run_20250503_121933/comparison_16.png",
+      "psnr": 5.018117188777012,
+      "ssim": 0.25479751686941926,
+      "delta_e": NaN,
+      "hist_corr": 0.24978528539468556,
+      "lpips": NaN
+    },
+    {
+      "img_num": 17,
+      "grayscale_path": "results/run_20250503_121933/grayscale_17.png",
+      "original_path": "results/run_20250503_121933/original_17.png",
+      "predicted_path": "results/run_20250503_121933/comparison_17.png",
+      "psnr": 4.947046419778472,
+      "ssim": 0.25428014303989,
+      "delta_e": NaN,
+      "hist_corr": 0.28516241434445916,
+      "lpips": NaN
+    },
+    {
+      "img_num": 18,
+      "grayscale_path": "results/run_20250503_121933/grayscale_18.png",
+      "original_path": "results/run_20250503_121933/original_18.png",
+      "predicted_path": "results/run_20250503_121933/comparison_18.png",
+      "psnr": 4.998506656456765,
+      "ssim": 0.2538037620680234,
+      "delta_e": NaN,
+      "hist_corr": 0.2506690070980111,
+      "lpips": NaN
+    },
+    {
+      "img_num": 19,
+      "grayscale_path": "results/run_20250503_121933/grayscale_19.png",
+      "original_path": "results/run_20250503_121933/original_19.png",
+      "predicted_path": "results/run_20250503_121933/comparison_19.png",
+      "psnr": 5.494785758311727,
+      "ssim": 0.2511067989212504,
+      "delta_e": NaN,
+      "hist_corr": 0.2485712448298881,
+      "lpips": NaN
+    }
+  ],
+  "summary": {
+    "mean_psnr": 4.9843003112796564,
+    "std_psnr": 0.3427060324359465,
+    "min_psnr": 4.245839652369145,
+    "max_psnr": 5.529291179235825,
+    "mean_ssim": 0.26333775723291925,
+    "std_ssim": 0.016923685720726507,
+    "min_ssim": 0.2508851320136298,
+    "max_ssim": 0.325664262617282,
+    "mean_hist_corr": 0.2783905484999702,
+    "std_hist_corr": 0.038812433643761315
+  },
+  "timestamp": "2025-05-03 13:44:31"
+}

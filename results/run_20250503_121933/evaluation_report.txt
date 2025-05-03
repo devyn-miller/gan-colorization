@@ -1,0 +1,83 @@
+================================================================================
+GAN COLORIZATION EVALUATION REPORT
+================================================================================
+
+Evaluation date: 2025-05-03 13:44:38
+Results directory: results/run_20250503_121933
+Number of evaluated images: 20
+
+----------------------------------------
+SUMMARY STATISTICS
+----------------------------------------
+
+PSNR (Peak Signal-to-Noise Ratio):
+  Mean: 4.98 dB
+  Standard Deviation: 0.34 dB
+  Range: 4.25 - 5.53 dB
+
+SSIM (Structural Similarity Index):
+  Mean: 0.2633
+  Standard Deviation: 0.0169
+  Range: 0.2509 - 0.3257
+
+Histogram Correlation:
+  Mean: 0.2784
+  Standard Deviation: 0.0388
+
+----------------------------------------
+BEST PERFORMING IMAGES
+----------------------------------------
+
+Top 5 by PSNR:
+  1. Image 10: PSNR=5.53, SSIM=0.2621
+  2. Image 19: PSNR=5.49, SSIM=0.2511
+  3. Image 15: PSNR=5.36, SSIM=0.2757
+  4. Image 14: PSNR=5.34, SSIM=0.2850
+  5. Image 11: PSNR=5.32, SSIM=0.2553
+
+Top 5 by SSIM:
+  1. Image 1: SSIM=0.3257, PSNR=5.27
+  2. Image 14: SSIM=0.2850, PSNR=5.34
+  3. Image 15: SSIM=0.2757, PSNR=5.36
+  4. Image 0: SSIM=0.2736, PSNR=4.35
+  5. Image 8: SSIM=0.2674, PSNR=4.42
+
+----------------------------------------
+WORST PERFORMING IMAGES
+----------------------------------------
+
+Bottom 5 by PSNR:
+  1. Image 5: PSNR=4.86, SSIM=0.2509
+  2. Image 4: PSNR=4.83, SSIM=0.2556
+  3. Image 8: PSNR=4.42, SSIM=0.2674
+  4. Image 0: PSNR=4.35, SSIM=0.2736
+  5. Image 2: PSNR=4.25, SSIM=0.2644
+
+Bottom 5 by SSIM:
+  1. Image 18: SSIM=0.2538, PSNR=5.00
+  2. Image 3: SSIM=0.2514, PSNR=4.88
+  3. Image 19: SSIM=0.2511, PSNR=5.49
+  4. Image 6: SSIM=0.2511, PSNR=4.95
+  5. Image 5: SSIM=0.2509, PSNR=4.86
+
+----------------------------------------
+VISUALIZATIONS GENERATED
+----------------------------------------
+
+1. Metric Distributions:
+   - PSNR distribution histogram
+   - SSIM distribution histogram
+   - Delta E distribution histogram
+   - LPIPS distribution histogram
+
+2. Metric Correlations:
+   - PSNR vs SSIM scatter plot
+
+3. Best/Worst Image Highlights:
+   - Best/worst by PSNR - individual comparisons
+   - Best/worst by SSIM - individual comparisons
+   - Combined grid visualizations
+
+
+Full evaluation data saved to CSV and JSON files.
+End of report.

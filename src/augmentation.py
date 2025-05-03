@@ -18,5 +18,4 @@ class ImageAugmenter:
             zoom_range=0.2,          # Random zoom
             horizontal_flip=True,    # Enable horizontal flipping
             fill_mode='nearest'      # Strategy for filling in newly created pixels
-        )
-
+        ) 

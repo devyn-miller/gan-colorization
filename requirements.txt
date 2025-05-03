@@ -9,3 +9,7 @@ pandas
 tqdm
 keras-tuner
 pytube
+seaborn
+lpips
+colormath
+torch-fidelity

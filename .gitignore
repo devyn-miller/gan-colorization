@@ -8,3 +8,5 @@ contents.ipynb
 CONTRIBUTING.md
 __pycache__
 .DS_Store
+cleanup.py
+cleanup_src.py

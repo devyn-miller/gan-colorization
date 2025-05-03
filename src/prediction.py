@@ -3,10 +3,10 @@ import torch
 import numpy as np
 from skimage.color import rgb2lab, lab2rgb
 
-from objects.stack import Stack
-from objects.result import Result
-from preprocessing import preprocess
-from gan_utils import lab_to_rgb
+from src.objects.stack import Stack
+from src.objects.result import Result
+from src.preprocessing import preprocess
+from src.gan_utils import lab_to_rgb
 
 
 class Predictor:

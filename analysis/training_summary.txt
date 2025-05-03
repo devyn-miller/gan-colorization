@@ -1,0 +1,12 @@
+Training Progress Analysis
+=========================
+
+Total number of epochs: 1
+Epochs found: [10]
+
+Training Samples:
+  Epoch 10: 2 samples, iterations [0, 50]
+
+Model Files:
+  Generator: models/final_generator.pth (46.15 MB)
+  Discriminator: models/final_discriminator.pth (10.56 MB)

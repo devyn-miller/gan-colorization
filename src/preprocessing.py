@@ -1,7 +1,7 @@
 import importlib
-import augmentation as augmentation
+import src.augmentation as augmentation
 importlib.reload(augmentation)
-from augmentation import ImageAugmenter
+from src.augmentation import ImageAugmenter
 
 from objects.stack import Stack
 import cv2

@@ -222,11 +222,14 @@ def calculate_metrics(pred_rgb, target_rgb):
     psnr = psnr_metric(target_rgb, pred_rgb)
     
     # Calculate SSIM (over each channel and take the mean)
+    # Fix: Use win_size=5 (smaller window) and specify channel_axis for small images
+    # The default win_size is 7, which might be too large for small images
     ssim = ssim_metric(
         target_rgb, 
         pred_rgb, 
-        multichannel=True, 
-        data_range=1.0
+        channel_axis=2,  # Specify the channel axis (RGB is the last dimension)
+        data_range=1.0,
+        win_size=5  # Use smaller window size for small images
     )
     
     return psnr, ssim
